@@ -119,6 +119,7 @@
   - Show agreement button
   - Require verification via email sent code
 - Compliance document and KYC pages
+  - Display multiple compliance and KYC needs
   - Navigation to each document upload page
   - Display verification status
   - Display why compliance document is needed
@@ -128,6 +129,7 @@
   - Indicate unseen notifications
 - A referral page
   - Displays referral code
+  - Display number of users and date of signup using referral code
   - Has sharing functionality
 - A profile page
   - Has navigation to a Compliance document and KYC page
