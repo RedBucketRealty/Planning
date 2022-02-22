@@ -1,0 +1,140 @@
+# RedBucketRealty: Android app Business Requirements
+
+- A singular color theme, documented
+- A font set, documented
+- A logo
+- A splash animation that runs on every app startup
+- Login and signup functionality
+  - Can login/sighnup via email and password
+  - Uses 2FA
+  - Uses PwnedPasswords service to check password
+- A home page
+  - Has navigation to other key parts of the app
+  - Highlights product recommendations across key business verticals
+  - Showcases new products and services across key business verticals
+  - Has navigation to a profile page
+  - Has functionality to add products and services to a favorites list
+- A cart page
+  - Displays all products and services added to the cart
+  - Has functionality to move to a payment page for the current cart items
+  - Has functionality to move products and services to a Buy Later list and other favorites lists
+- A favorites lists page
+  - Displays navigation links to favorites lists
+  - Has functionality to create a new favorites list
+  - Displays recently added products and services to the favorites lists
+  - A favorites list
+    - Displays items added to the list, with the ability to sort according to some metric
+    - Navigation to the items added to the list
+- An orders page
+  - Displays all orders placed and their status, sorted by newest first
+  - Has functionality to renew orders
+  - Has functionality to suggest similar orders
+  - Has functionality to display invoices
+  - Has functionality to export invoices
+- Properties pages for each vertical: residences, private office spaces, shared co-working spaces, event spaces, and virtual spaces
+  - Display the properties
+  - Sort and filter them by size, price, and other metrics
+  - Has functionality to add each property to a favorites page list
+  - Navigate to each individual property
+- Residence property page
+  - Display
+    - Name and location of the property
+    - A cover image of the property
+    - Price tag of the property
+    - Advantages of the property
+    - What amenitites the rental covers
+    - Other marketing copy
+    - Compliances needed
+    - Who they are renting it from
+  - Display other images of the property
+  - Navigation to a Maps listing of the property
+  - Navigation to a rental agreement of the property
+  - Has functionality to add property to a favorites page list
+  - Has functionality to add to cart page
+  - Has functionality to rent right away
+- Private office spaces page
+  - Display
+    - Name and location of the office space
+    - A cover image of the office space
+    - Price tag of the office space
+    - Amenities of the office space
+    - Services offered in the office space
+    - Other marketing copy
+    - Compliances needed
+    - Who they are renting it from
+  - Display other images of the office space
+  - Navigation to a Maps listing of the office space
+  - Navigation to a rental agreement of the office space
+  - Has functionality to add office space to a favorites page list
+  - Has functionality to add to cart page
+  - Has functionality to rent right away
+- Shared co-working spaces page
+  - Display
+    - Name and location of the office space
+    - A cover image of the office space
+    - Price tag of the office space per user
+    - Amenities of the office space
+    - Services offered in the office space
+    - Other marketing copy
+    - Compliances needed
+    - Who they are renting it from
+  - Display other images of the office space
+  - Navigation to a Maps listing of the office space
+  - Navigation to a rental agreement of the office space
+  - Has functionality to add office space to a favorites page list
+  - Has functionality to add to cart page along with number of users
+  - Has functionality to rent right away
+- Event spaces page
+  - Display
+    - Name and location of the event space
+    - A cover image of the event space
+    - Price tag of the event space per day
+    - How many people can be accomodated per day in the event space
+    - Amenities of the event space
+    - Other marketing copy
+    - Who they are renting it from
+  - Display other images of the event space
+  - Navigation to a maps listing of the event space
+  - Navigation to a rental agreement of the event space
+  - Has functionality to add event space to a favorites page list
+  - Has functionality to add to cart page
+  - Has functionality to rent right away
+- Virtual spaces page
+  - Display
+    - Name and location of the page
+    - A cover image of the space
+    - Price tag of the space
+    - Services offered
+    - Other marketing copy
+    - Compliances needed
+    - Who they are renting it from
+  - Navigation to a maps listing of the virtual space
+  - Navigation to a rental agreement of the virtual space
+  - Has functionality to add virtual space to a favorites page list
+  - Has functionality to add to cart page
+  - Has functionality to rent right away
+- Rental agreement pages
+  - Show Text of the rental agreement
+  - Show agreement button
+  - Require verification via email sent code
+- Compliance document and KYC pages
+  - Display multiple compliance and KYC needs
+  - Navigation to each document upload page
+  - Display verification status
+  - Display why compliance document is needed
+- Notifications page
+  - Should come as a push notification
+  - Display all notifications
+  - Indicate unseen notifications
+- A referral page
+  - Displays referral code
+  - Display usage of referral code without exposing PII: number of users and time of usage
+  - Has sharing functionality
+- A profile page
+  - Has navigation to a Compliance document and KYC page
+  - Has navigation to a referral page
+  - Has navigation to licenses and attributions
+  - Has navigation to privacy policy page
+  - Has navigation to data policy page
+  - Has navigation to an email for contact
+  - Has navigation to in app chat
