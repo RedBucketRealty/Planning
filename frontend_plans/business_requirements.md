@@ -14,7 +14,7 @@
   - Highlights product recommendations across key business verticals
   - Showcases new products and services across key business verticals
   - Has navigation to a profile page
-  - Has functionality to add Products and services to a favorites list
+  - Has functionality to add products and services to a favorites list
 - A cart page
   - Displays all products and services added to the cart
   - Has functionality to move to a payment page for the current cart items
@@ -69,7 +69,7 @@
   - Has functionality to add office space to a favorites page list
   - Has functionality to add to cart page
   - Has functionality to rent right away
-- Share co-working spaces page
+- Shared co-working spaces page
   - Display
     - Name and location of the office space
     - A cover image of the office space
