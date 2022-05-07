@@ -1,6 +1,6 @@
 # Frontend Business Requirements
 
-- A singular color theme, documented
+- A set of color themes, documented
 - A font set, documented
 - A logo
 - A splash animation if necessary

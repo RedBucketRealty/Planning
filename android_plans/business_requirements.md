@@ -1,48 +1,55 @@
 # RedBucketRealty: Android app Business Requirements
 
-- A singular color theme, documented
+- A set of color themes, documented
 - A font set, documented
 - A logo
 - A splash animation that runs on every app startup
 - Login and signup functionality
-  - Can login/sighnup via email and password
+  - Can login/signup via email and password
   - Uses 2FA
   - Uses PwnedPasswords service to check password
 - A home page
   - Has navigation to other key parts of the app
   - Highlights product recommendations across key business verticals
   - Showcases new products and services across key business verticals
-  - Has navigation to a profile page
   - Has functionality to add products and services to a favorites list
 - A cart page
   - Displays all products and services added to the cart
   - Has functionality to move to a payment page for the current cart items
   - Has functionality to move products and services to a Buy Later list and other favorites lists
+  - Has functionality to remove items from the cart
+  - Has functionality to make sure all rental agreements are signed before payment is processed
+  - Has functionality to make sure all compliances are signed before payment is processed
+  - Displays all products and services in the Buy Later list
 - A favorites lists page
   - Displays navigation links to favorites lists
   - Has functionality to create a new favorites list
   - Displays recently added products and services to the favorites lists
+  - Delete multiple lists at once
   - A favorites list
     - Displays items added to the list, with the ability to sort according to some metric
     - Navigation to the items added to the list
+    - Has functionality to delete items in the list
+    - Has functionality to delete list
 - An orders page
   - Displays all orders placed and their status, sorted by newest first
   - Has functionality to renew orders
   - Has functionality to suggest similar orders
   - Has functionality to display invoices
+    - Display GST compliant invoices
   - Has functionality to export invoices
 - Properties pages for each vertical: residences, private office spaces, shared co-working spaces, event spaces, and virtual spaces
   - Display the properties
   - Sort and filter them by size, price, and other metrics
   - Has functionality to add each property to a favorites page list
   - Navigate to each individual property
-- Residence property page
+- Residential property page
   - Display
     - Name and location of the property
     - A cover image of the property
     - Price tag of the property
     - Advantages of the property
-    - What amenitites the rental covers
+    - What amenities the rental covers
     - Other marketing copy
     - Compliances needed
     - Who they are renting it from
@@ -51,7 +58,6 @@
   - Navigation to a rental agreement of the property
   - Has functionality to add property to a favorites page list
   - Has functionality to add to cart page
-  - Has functionality to rent right away
 - Private office spaces page
   - Display
     - Name and location of the office space
@@ -67,7 +73,6 @@
   - Navigation to a rental agreement of the office space
   - Has functionality to add office space to a favorites page list
   - Has functionality to add to cart page
-  - Has functionality to rent right away
 - Shared co-working spaces page
   - Display
     - Name and location of the office space
@@ -83,13 +88,12 @@
   - Navigation to a rental agreement of the office space
   - Has functionality to add office space to a favorites page list
   - Has functionality to add to cart page along with number of users
-  - Has functionality to rent right away
 - Event spaces page
   - Display
     - Name and location of the event space
     - A cover image of the event space
     - Price tag of the event space per day
-    - How many people can be accomodated per day in the event space
+    - How many people can be accommodated per day in the event space
     - Amenities of the event space
     - Other marketing copy
     - Who they are renting it from
@@ -98,7 +102,6 @@
   - Navigation to a rental agreement of the event space
   - Has functionality to add event space to a favorites page list
   - Has functionality to add to cart page
-  - Has functionality to rent right away
 - Virtual spaces page
   - Display
     - Name and location of the page
@@ -112,29 +115,33 @@
   - Navigation to a rental agreement of the virtual space
   - Has functionality to add virtual space to a favorites page list
   - Has functionality to add to cart page
-  - Has functionality to rent right away
 - Rental agreement pages
   - Show Text of the rental agreement
   - Show agreement button
   - Require verification via email sent code
-- Compliance document and KYC pages
-  - Display multiple compliance and KYC needs
-  - Navigation to each document upload page
-  - Display verification status
-  - Display why compliance document is needed
+- A profile page
+  - Display user data
+  - Has functionality to edit user data
+    - Has functionality to get authorization to edit user data
+  - Has navigation to a Compliance document and KYC page
+  - Has navigation to a referral page
+  - Has navigation to licenses and attributions
+  - Has navigation to data policy, privacy policy, and terms of use page
+  - Has navigation to a contact page with contact email, link to website, and mailing address of the company
+  - Has navigation to get help page with email, in app chat, and help page link
+  - Has navigation to Notifications page
 - Notifications page
   - Should come as a push notification
   - Display all notifications
   - Indicate unseen notifications
+- Compliance document and KYC pages
+  - Display multiple compliance and KYC needs for personal and business
+  - Has functionality for uploading relevant documents
+  - Display verification status
+  - Display why compliance document is needed
 - A referral page
   - Displays referral code
   - Display usage of referral code without exposing PII: number of users and time of usage
   - Has sharing functionality
-- A profile page
-  - Has navigation to a Compliance document and KYC page
-  - Has navigation to a referral page
-  - Has navigation to licenses and attributions
-  - Has navigation to privacy policy page
-  - Has navigation to data policy page
-  - Has navigation to an email for contact
-  - Has navigation to in app chat
+- Search <!-- TODO: Add search functionality -->
+- In-app chat <!-- TODO: Add in app chat functionality -->
