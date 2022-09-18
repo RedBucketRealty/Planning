@@ -14,3 +14,4 @@ The RedBucketRealty Frontend is an customer facing Frontend for a fictional comp
 - **Focus only on what your business needs** by developing core business verticals on the frontend, without having to create new business units or spin up any redundant infrastructure.
 - **Easily pivot your business strategically** into new verticals by serving new products and services to your existing customer base using the existing frontend itself.
 - **Simplify complex operations and customer interactions into single step processes** on the frontend that boost business velocity, and keep customers retained by keeping them happy.
+- **Increase customer confidence in your brand** by delivering secure and well designed services, adopting exemplary data custodian practices, and adopting or exceeding industry standards for service quality.

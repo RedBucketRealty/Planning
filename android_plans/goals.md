@@ -14,3 +14,4 @@ The RedBucketRealty android app is an customer facing android app for a fictiona
 - **Focus only on what your business needs** by developing core business verticals on the app, without having to create new business units or spin up any redundant infrastructure.
 - **Easily pivot your business strategically** into new verticals by serving new products and services to your existing customer base using the existing app itself.
 - **Simplify complex operations and customer interactions into single step processes** on the app that boost business velocity, and keep customers retained by keeping them happy.
+- **Increase customer confidence in your brand** by delivering secure and well designed services, adopting exemplary data custodian practices, and adopting or exceeding industry standards for service quality.
