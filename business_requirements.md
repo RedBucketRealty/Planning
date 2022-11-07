@@ -32,6 +32,7 @@
     - [Observability](#observability)
     - [Testing and Quality Assurance](#testing-and-quality-assurance)
 
+
 ## Branding, Design, and Experiences
 
 - A set of color themes for light and dark modes.
@@ -40,26 +41,42 @@
 - A logo, multiple sizes.
 - Design should have a clean aesthetic.
 - Design should be accessible.
+- A stylesheet should be developed.
+- A collaboration cycle should be made.
 
 ## Messaging and Communication
 
-- A messaging service that allows customers to contact the business from within their accounts.
+- An asynchronous messaging service that allows customers to contact the business from within their accounts.
+- A service that displays status of other services.
 - An email service that automates transactional email for reminders and personalized messaging.
 - A notifications service for sending automated notifications.
 
 ## Payments
 
 - A payments service that integrates with a payments provider. It keeps track of the payment status.
+- A service that displays current and next projected payments for the business.
+- A service that tracks discount credits.
 
 ## Compliance
 
 - A KYC intake service for individual and corporate users.
 - A KYC verification service. It should delete data after it has been used, or within 30-90 days, whichever sooner.
+- A service that allows business side modification of KYC data without disclosing stored data.
+- A service that monitors internal compliance operations and audits.
+- A service that securely signs and timestamps internal files.
+- A service that securely signs and timestamps external files.
 - A service for policy compliance automation, such as terms of use, agreements, contracts, etc.
 
 ## Analytics
 
 - A fleet of services for analytics workloads.
+- A fleet of ETL services for the following data:
+  - Customer orders
+  - Products
+  - User trends
+  - Referrals
+  - Reviews
+  - Surveys
 
 ## Security and data
 
@@ -71,6 +88,8 @@
 
 - A service for user PII.
 - User data should be stored according to data policy.
+- User data should be exported to the user on request.
+- User data should not have unrestricted access.
 
 ### Authentication, Authorization
 
@@ -90,15 +109,19 @@
   5. Rent a shared co-working space (individual)
   6. Rent an event space (individual)
   7. Buy an event space (individual)
-  8. Rent a virtual office space (individual)
-  9. Rent a residence (corporate)
-  10. Buy a residence (corporate)
-  11. Rent a private office (corporate)
-  12. Buy a private office (corporate)
-  13. Rent a shared co-working space (corporate)
-  14. Rent an event space (corporate)
-  15. Buy an event space (corporate)
-  16. Rent a virtual office space (corporate)
+  8. Rent a warehouse (individual)
+  9. Buy a warehouse (individual)
+  10. Rent a virtual office space (individual)
+  11. Rent a residence (corporate)
+  12. Buy a residence (corporate)
+  13. Rent a private office (corporate)
+  14. Buy a private office (corporate)
+  15. Rent a shared co-working space (corporate)
+  16. Rent an event space (corporate)
+  17. Buy an event space (corporate)
+  18. Rent a warehouse (corporate)
+  19. Buy a warehouse (corporate)
+  20. Rent a virtual office space (corporate)
 
 - These are the following services:
   1. Personalized real estate search
@@ -114,11 +137,19 @@
   6. Event management
   7. Residential housekeeping
   8. Housekeeping services for enterprise needs
+  9. General transportation and logistics
+  10. Mail and package handling
+  11. Warehouse management
+  12. Real estate maintenance and renovation.
 
 ### Product service
 
 - There should be a service for products data storage.
 - There should be a service for product data ingestion.
+- There should be a service for product data management.
+- There should be a service for product procurement accessible by external partners.
+- There should be a service for internal product compliance automation.
+- A service to track installation and maintenance of products and services.
 
 ### Customer transactions
 
@@ -127,20 +158,23 @@
 - A service to start checkout process from a QR code.
 - A service to track future payments.
 - A service to track usage, reviews, and help desk tickets related to 3rd party services.
+- A service for 3rd party service partners to interface and communicate.
 
 ### Customer fulfillment
 
-- A service for customer reviews.
+- A service for customer reviews and review management.
 - A service for customer onboarding.
-- A customer help desk service that communicates with the customer and resolves tickets.
-- A chat service for customers to connect to help desk service.
-- An email service for asynchronous communication with customers.
+- A customer help desk service that communicates with the customer, resolves tickets, and tracks customer interactions.
+- A live chat service for customers to connect to help desk service.
 
 ### Customer comfort
 
 - A service for customer favorites.
 - A service for customer wants. Public and anonymous displays of desire for a product.
 - A service for deal notifications on selected services and products.
+- A service to develop automated and custom deal campaigns on products and services.
+- A service to develop automates and custom product recommendation campaigns on products and services.
+- A service to develop automates and custom product highlighting campaigns on products and services
 - A service for blog posts.
 - A service for customer surveys.
 - A service for customer brand loyalty rewards.
@@ -154,6 +188,7 @@
 - A service for custom links to products optimized for social sharing.
 - A service that creates custom links for customers to share and keep track of shared items.
 - A service for communities based around users of a particular product.
+- A service for internal communities, announcements, and discussions on products and services.
 
 ## Referrals
 
