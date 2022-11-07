@@ -56,6 +56,7 @@
 - A payments service that integrates with a payments provider. It keeps track of the payment status.
 - A service that displays current and next projected payments for the business.
 - A service that tracks discount credits.
+- A service that integrates with 3rd party service providers to place orders.
 
 ## Compliance
 
