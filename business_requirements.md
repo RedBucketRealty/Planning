@@ -32,7 +32,6 @@
     - [Observability](#observability)
     - [Testing and Quality Assurance](#testing-and-quality-assurance)
 
-
 ## Branding, Design, and Experiences
 
 - A set of color themes for light and dark modes.
