@@ -1,5 +1,7 @@
 # Business Requirements for RedBucketRealty
 
+This project is meant to be a portfolio piece. No warranty is present, to the extent permitted by law.
+
 ## Sections
 
 - [Business Requirements for RedBucketRealty](#business-requirements-for-redbucketrealty)
@@ -20,7 +22,7 @@
     - [Customer comfort](#customer-comfort)
   - [Social and sharing](#social-and-sharing)
   - [Referrals](#referrals)
-  - [Service Level Objectives, and Indicators](#service-level-objectives-and-indicators)
+  - [Architectural requirements](#architectural-requirements)
     - [Scaling](#scaling)
     - [Confidentiality](#confidentiality)
     - [Integrity](#integrity)
@@ -42,6 +44,8 @@
 - Design should be accessible.
 - A stylesheet should be developed.
 - A collaboration cycle should be made.
+- Articulation of brand values, ideas, and designs.
+- Designs should comply with DA requirements.
 
 ## Messaging and Communication
 
@@ -49,10 +53,14 @@
 - A service that displays status of other services.
 - An email service that automates transactional email for reminders and personalized messaging.
 - A notifications service for sending automated notifications.
+- A service for crafting easy marketing and branding messages across messaging channels.
+- A service for delivering automated legal notices to users and partners.
+- A service for delivering messages on a schedule.
 
 ## Payments
 
 - A payments service that integrates with a payments provider. It keeps track of the payment status.
+- A service that interfaces with external payments providers for compliance automation and analytic data processing.
 - A service that displays current and next projected payments for the business.
 - A service that tracks discount credits.
 - A service that integrates with 3rd party service providers to place orders.
@@ -60,29 +68,41 @@
 ## Compliance
 
 - A KYC intake service for individual and corporate users.
+- A service that archives all data associated with every payment for compliance assurance.
 - A KYC verification service. It should delete data after it has been used, or within 30-90 days, whichever sooner.
 - A service that allows business side modification of KYC data without disclosing stored data.
 - A service that monitors internal compliance operations and audits.
 - A service that securely signs and timestamps internal files.
 - A service that securely signs and timestamps external files.
 - A service for policy compliance automation, such as terms of use, agreements, contracts, etc.
+- Services should be designed to comply with privacy regulations and standards in the US, India, the EU, and globally.
+- Services should be designed to comply with consumer safety regulations in the US, India, the EU, and globally.
+- A service for automated data audits and alerting.
 
 ## Analytics
 
 - A fleet of services for analytics workloads.
 - A fleet of ETL services for the following data:
   - Customer orders
+  - Favorites
+  - Payments
   - Products
   - User trends
   - Referrals
   - Reviews
   - Surveys
+  - Brand sentiment
+  - Social
+  - Recommendation and referral feedback
+  - Blog and digital relationships
 
 ## Security and data
 
 - A data policy should be made.
 - Data policy should follow all relevant laws, and be stored in accordance with industry best practices.
 - Security decisions should be made in accordance with industry best practices, government recommendations, and recommendations from NIST (US).
+- Data backup, restore, and necessary migration processes should be developed.
+- A service for security incident alerting.
 
 ### User data
 
@@ -90,6 +110,8 @@
 - User data should be stored according to data policy.
 - User data should be exported to the user on request.
 - User data should not have unrestricted access.
+- User data should only be collected for specific and stated business purposes, and should only be retained for a definite timeline.
+- A service to monitor for user death and execute related legal policy.
 
 ### Authentication, Authorization
 
@@ -150,6 +172,7 @@
 - There should be a service for product procurement accessible by external partners.
 - There should be a service for internal product compliance automation.
 - A service to track installation and maintenance of products and services.
+- There should be a service to evaluate and manage products and product categories.
 
 ### Customer transactions
 
@@ -159,6 +182,7 @@
 - A service to track future payments.
 - A service to track usage, reviews, and help desk tickets related to 3rd party services.
 - A service for 3rd party service partners to interface and communicate.
+- A service to automate concierge tasks for valued customers.
 
 ### Customer fulfillment
 
@@ -174,7 +198,7 @@
 - A service for deal notifications on selected services and products.
 - A service to develop automated and custom deal campaigns on products and services.
 - A service to develop automates and custom product recommendation campaigns on products and services.
-- A service to develop automates and custom product highlighting campaigns on products and services
+- A service to develop automates and custom product highlighting campaigns on products and services.
 - A service for blog posts.
 - A service for customer surveys.
 - A service for customer brand loyalty rewards.
@@ -189,13 +213,17 @@
 - A service that creates custom links for customers to share and keep track of shared items.
 - A service for communities based around users of a particular product.
 - A service for internal communities, announcements, and discussions on products and services.
+- A service to track internal and external brand value and mentions.
 
 ## Referrals
 
 - A service for inbound customer referrals.
 - A service for inbound partner referrals.
+- A service for inbound external referrals.
 
-## Service Level Objectives, and Indicators
+## Architectural requirements
+
+- Known good architectural practices for the platform should be used.
 
 ### Scaling
 
