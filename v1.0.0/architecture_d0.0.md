@@ -21,10 +21,36 @@
 
 ## IAM
 
-- IAM should return short lived tokens.
+- IAM authorization and authentication should be time limited.
 - IAM should allow ABAC, RBAC.
 - It should be possible to quickly authenticate requests to services using tokens.
-- IAM should offer a programmable interface for automation.
+- IAM service should notify users when an event related to their authentication and authorization happens.
+- IAM should employ multi-factor authentication whenever possible.
+- IAM should offer a versioned and robust programmable interface for automation.
+- IAM service should be idempotent.
+- IAM should offer a UI console for manual engineering.
+- An off the shelf and cloud agnostic IAM service should be developed.
+- IAM service should be scalable, containerized, and cloud native.
+- IAM service should be designed to fail and degrade gracefully.
+- IAM service should offer simple and reliable interfaces for IT administration without requiring significant technical knowledge about the service.
+- Supports detailed, auditable, timestamped logs for all operations.
+- IAM should alert on unusual access patterns.
+- IAM service should employ it's own separate storage solutions.
+- IAM data should be encrypted at rest, and while in transit.
+- IAM service should use soft deletion techniques.
+- IAM service should have pagination and sorting built in, with the results restricted to one (1) for now.
+- IAM service should be designed with pluralization and multi-tenancy, including structure and architecture, in mind.
+- IAM backup, migration, and restore should be tested and automated.
+- IAM data transmission should be minimized and compressed for efficiency.
+- IAM should be structured to reduce blast radius in general, and between company and user data in case of compromise, using segmentation at the service data level.
+- IAM should be developed while using static and dynamic security and quality control tools during the development and operations process.
+- Authentication tokens should be versioned, and include suffix and prefixes.
+- IAM service should define an error budget.
+- IAM service deployment and cleanup should be automated.
+- IAM service deprecation and sunset should be planned and designed for.
+- IAM service should be designed with observability and ease of debugging in mind.
+- IAM service should have latency and speed benchmark targets.
+- IAM service should allow export of certain data, in compliance with laws and regulations.
 
 ## PAM
 
@@ -32,6 +58,33 @@
 - PAM should allow automatic and periodical secret rollover.
 - Access to PAM admin should be limited to minimize exposure.
 - Should integrate with IAM service.
+
+- PAM should employ multi-factor authentication whenever possible.
+- PAM should offer a versioned and robust programmable interface for automation.
+- PAM service should be idempotent.
+- PAM should offer a UI console for manual administration.
+- An off the shelf and cloud agnostic PAM service should be developed.
+- PAM service should be scalable, containerized, and cloud native.
+- PAM service should be designed to fail and degrade gracefully.
+- PAM service should offer simple and reliable interfaces for IT administration without requiring significant technical knowledge about the service.
+- Supports detailed, auditable, timestamped logs for all operations.
+- PAM should alert on unusual access patterns.
+- PAM service should employ it's own separate storage solutions.
+- PAM data should be encrypted at rest, and while in transit.
+- PAM service should use soft deletion techniques.
+- PAM service should have pagination and sorting built in, with the results restricted to one (1) for now.
+- PAM service should be designed with pluralization and multi-tenancy, including structure and architecture, in mind.
+- PAM backup, migration, and restore should be tested and automated.
+- PAM data transmission should be minimized and compressed for efficiency.
+- PAM should be structured to reduce blast radius in case of compromise, using segmentation at the service data level.
+- PAM should be developed while using static and dynamic security and quality control tools during the development and operations process.
+- Generated PAM tokens should be versioned, and include suffix and prefixes.
+- PAM service should define an error budget.
+- PAM service deployment and cleanup should be automated.
+- PAM service deprecation and sunset should be planned for.
+- PAM service should be designed with observability and ease of debugging in mind.
+- PAM service should have latency and speed benchmark targets.
+- PAM service should allow export of certain data, in compliance with laws and regulations.
 
 ## Pwned Passwords service
 
