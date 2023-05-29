@@ -1,10 +1,10 @@
-# Business Requirements for RedBucketRealty
+# Business Requirements for RedBucketRealty: MVP v1.0.0
 
 This project is meant to be a portfolio piece. No warranty is present, to the extent permitted by law.
 
 ## Sections
 
-- [Business Requirements for RedBucketRealty](#business-requirements-for-redbucketrealty)
+- [Business Requirements for RedBucketRealty: MVP v1.0.0](#business-requirements-for-redbucketrealty-mvp-v100)
   - [Sections](#sections)
   - [Branding, Design, and Experiences](#branding-design-and-experiences)
   - [Messaging and Communication](#messaging-and-communication)
@@ -33,6 +33,7 @@ This project is meant to be a portfolio piece. No warranty is present, to the ex
     - [Automation](#automation)
     - [Observability](#observability)
     - [Testing and Quality Assurance](#testing-and-quality-assurance)
+    - [Robustness and auditable security](#robustness-and-auditable-security)
 
 ## Branding, Design, and Experiences
 
@@ -199,3 +200,7 @@ This project is meant to be a portfolio piece. No warranty is present, to the ex
 ### Testing and Quality Assurance
 
 - Throughout the development and operations process, there should be automated testing and quality assurance procedures.
+
+### Robustness and auditable security
+
+- Throughout the development and operations process, data and service operations should be designed to be robust and have auditable security.
